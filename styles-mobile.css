@@ -1,0 +1,153 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 2.2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.3em;
+    color: rgb(15, 162, 182);
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+p {
+    line-height: 30px;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 15px;
+}
+
+header {
+    background-color: #000;
+    padding: 10%
+}
+
+header img {
+    width: 140px;
+    margin-left: 26%;
+}
+
+main {
+    background-image: url(img/banner.jpg);
+    background-size: 120%;
+    background-position: center;
+    padding: 15% 10%;
+    text-align: center;
+}
+
+main h1 {
+    color: rgb(15, 162, 182);
+}
+
+
+input {
+    width: 155px;
+    height: 40px;
+    margin-top: 25px;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid tomato;
+    background-color: tomato;
+    border-radius: 5px;
+}
+
+
+.italic {
+    font-style: italic;
+}
+
+#copy {
+    font-size: 0.9em;
+}
+
+#laptop {
+    width: 300px;
+    border: 0px solid #fff;
+    border-radius: 220px;
+    margin-top: 12%;
+    margin-left: 12%;
+}
+
+.orangebox {
+    color: #fff;
+    background-color: rgb(226, 63, 23);
+    padding: 10%;
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+.orangebox h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.8em;
+}
+
+.orangebox h1 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.orangebox p {
+    font-size: 1.1em;
+}
+
+.box {
+    margin: 8%;
+    border: 1px solid rgb(218, 218, 218);
+
+}
+
+.box img {
+    width: 100%;
+}
+
+.box h2 {
+    font-size: 1.1em;
+    margin-top: 25px;
+}
+
+.box p {
+    font-size: 1em;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+.footer {
+    color: #fff;
+    background-color: rgb(17, 169, 196);
+    padding: 10%;
+    margin-top: 70px;
+
+}
+
+.footer p {
+    font-size: 1.1em;
+    margin: 0;
+}
+
+.footer h1 {
+    margin-bottom: 30px;
+}
+
+.footer hr {
+    margin: 40px 60px;
+    border: 1px solid #fff
+}
+
+.footer a {
+    color: #fff
+}
